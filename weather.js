@@ -54,11 +54,14 @@ const getWeatherDataFromApi = async() =>{
                 <sup>${sys.country}</sup>
             </h2>
             <div class="city-temp">${Math.round(main.temp)}<sup>°C</sup></div>
-            <figure>                                                                     //! FIGURE SEO ICIN ONEMLI BU NEDENLE FIGURE KULLANDIK.
+            
+            <figure>                                                                    
                 <img class="city-icon" src="${iconUrl}">
                 <figcaption>${weather[0].description}</figcaption>
             </figure>`;
         createdLi.innerHTML = createdLiInnerHTML;
+ // FIGURE SEO ICIN ONEMLI BU NEDENLE FIGURE KULLANDIK.
+
         //append vs. prepend
         list.prepend(createdLi);
 

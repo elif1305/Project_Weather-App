@@ -16,6 +16,8 @@ At the end of the this project, we will be able to;
    
 ## Problem Statement
 
+![Form](./img/weather%20app.gif)
+
 - Design a weather condition page following the design and populate data for searched city with using of axios in JS.
 
 User story;
