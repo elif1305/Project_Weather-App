@@ -3,7 +3,7 @@ const input = document.querySelector(".top-banner input");
 const msg = document.querySelector("span.msg");
 const list = document.querySelector(".ajax-section .cities"); // classlar arasainda bosluk birakildigi zaman biiri kendi biri childi demek.
 
-// localStorage.setItem("apiKey", EncryptStringAES("4d8fb5b93d4af21d66a2948710284366"));
+// localStorage.setItem("apiKey", EncryptStringAES("4d97b4ee9ef2e908406b6e1fab21e4a0"));
 
 form.addEventListener("submit", (e) =>{
     e.preventDefault();             // sayfayi otomatik yenilememesi icin
